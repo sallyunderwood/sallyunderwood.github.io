@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0px; padding:0px;}
+
+img{max-width:100%;}
+body{font-size:100%;}
+
+.imageWrapper {
+	display: block;
+	margin-top: 1.5em;	
+	float: left;
+	list-style-type: none;
+  	padding: 0;
+  	text-align: center;
+}
+ 
+.image1 {
+	margin-left: 1px;
+	display: inline-block;
+  	position: relative;
+}
+
+span.text-content {
+	background: #883F54;
+  	color:#E4E2DB;
+	font-size:1.1em;
+	font-family: 'Work Sans', sans-serif;
+  	cursor: pointer;
+  	display: table;
+  	left: 0;
+  	position: absolute;
+  	top: 0;
+	height:191px;
+	width:284px;
+	opacity: 0;
+	-webkit-box-shadow:inset 0px 0px 0px 1px #883F54;
+    -moz-box-shadow:inset 0px 0px 0px 1px #883F54;
+	-o-box-shadow:inset 0px 0px 0px 1px #883F54;
+    box-shadow:inset 0px 0px 0px 1px #883F54;
+	-webkit-transition: opacity 600ms ;
+  	-moz-transition: opacity 600ms;
+  	-o-transition: opacity 600ms;
+  	transition: opacity 600ms;
+	
+}
+
+.imageWrapper .image1 span.text-content:hover {
+	opacity: 1;	
+	-webkit-transition: opacity 300ms ;
+  	-moz-transition: opacity 300ms;
+  	-o-transition: opacity 300ms;
+  	transition: opacity 300ms;
+	
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.footer {
+	padding-top:2em;
+	font-size:0.69em;
+	font-family: 'Work Sans', sans-serif;
+	
+	color:#3E3232;
+	text-align: center;
+	width: 100%;
+	
+}
+
+/*.a:link {
+	width:31%;
+	margin-left:2%;
+	margin-bottom:2%;
+	float:left;
+	position:relative;
+	background-color:#DC4276;
+	height:10em;
+	border-radius: .2em;
+	display: block;
+}
+	*/
+
